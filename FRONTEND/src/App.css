@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* styles.css */
+.transition-btn {
+    background-color: #ff0505;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .transition-btn:hover {
+    background-color: white;
+    color:  #ff0505 ;
+       transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 4px 10px red,0 4px 10px red; /* Add shadow effect */
+  }
+  
+  .glow-btn {
+    background-color: gold;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+  }
+  
+  .glow-btn:hover {
+    background-color: white;
+    color: gold;
+    box-shadow: 0 0 10px gold, 0 0 40px gold;
+    transform: scale(1.1);
+  }
+  
+  body{
+    background-color:black;
+  
+  }
